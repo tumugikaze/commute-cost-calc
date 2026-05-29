@@ -18,7 +18,7 @@
 | UI Library | Vuetify |
 | CSS | Tailwind CSS |
 | Language | TypeScript |
-| Linter | ESLint |
+| Linter | Biome |
 
 ## Getting Started
 
