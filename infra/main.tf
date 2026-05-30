@@ -67,3 +67,15 @@ resource "aws_cloudfront_distribution" "main" {
   }
 
 }
+
+output "aws_role_arn" {
+  value = aws_iam_role.github_actions.arn
+}
+
+output "s3_bucket" {
+  value = aws_s3_bucket.main.id
+}
+
+output "cf_distribution_id" {
+  value = aws_cloudfront_distribution.main.id
+}
